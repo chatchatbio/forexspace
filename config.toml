@@ -1,0 +1,19 @@
+[mt5]
+login = 76321480
+password = "rYl9cA20mD8ZPwo"
+server = "Exness-MT5Trial5"
+
+
+[trading]
+stop_loss_pips = 50
+take_profit_pips = 100
+
+
+# 增加DynamicStopLossTakeProfit的参数到配置文件中
+[DynamicSLTP]
+boll_periods = 20
+rsi_periods = 14
+trailing_stop_distance = 50.0
+take_profit = 100.0
+stop_loss = 50.0
+stop_loss_take_profit_type = "dynamic"  # "dynamic", "fixed", "atr", "ma"...
